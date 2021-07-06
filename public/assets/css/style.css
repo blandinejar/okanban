@@ -1,0 +1,50 @@
+body {
+  background-color: #ccc;
+  height: 100vh;
+  font-family: 'Cookie', cursive;
+}
+
+.is-success,
+.is-info,
+.is-danger,
+.close {
+  font-family: 'Cookie', cursive;
+}
+
+.card-lists {
+  overflow-x: auto;
+}
+
+.single-card {
+  transition: ease-in-out all .3s;
+}
+
+.single-card:hover {
+  opacity: 0.6
+}
+
+.title {
+  font-size: 3em;
+  text-align: center;
+  background-color: rgb(149, 177, 255);
+  padding: 1.5rem;
+  transition: all ease-in-out 1s;
+  border-radius: 20px;
+}
+
+.title:hover {
+  letter-spacing: 50px;
+}
+
+#modalAssociateTags {
+  font-size: 1.8em;
+}
+
+.tags-list {
+  overflow: auto;
+}
+
+.class-for-tags {
+  padding: 0.5em;
+  text-align: center;
+}

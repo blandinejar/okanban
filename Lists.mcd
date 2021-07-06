@@ -1,0 +1,13 @@
+USER: _first name, last name, _email, password
+CREATES, 0N USER, 11 LIST
+
+LIST: name
+HAS, 11 CARD, 0N LIST
+
+CARD: title, position
+
+COLOR: name
+POSSESSES, 01 CARD, 0N COLOR
+
+LABEL: name
+DESIGNATES, 0N CARD, 0N LABEL
