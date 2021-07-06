@@ -1,6 +1,6 @@
 const app = {
 
-  base_url: 'http://localhost:3000',
+  base_url: 'http://54.234.220.175:3000',
 
   init: function () {
     console.log('app.init !');
